@@ -1,3 +1,6 @@
+# Purpose: using conditional flow give user options to find the treasure
+
+
 print('''
 *******************************************************************************
           |                   |                  |                     |

@@ -2,6 +2,9 @@ import random
 from hangman_art import stages, logo
 from hangman_words import word_list
 
+#Purpose: implementation of hangman
+#WARNING THE GAME HAS NO INPUT VALIDATION
+
 print(logo)
 # generate random word
 

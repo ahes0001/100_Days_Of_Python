@@ -1,3 +1,5 @@
+# terminal game of rock paper scissors
+
 import random
 rock = '''
     _______

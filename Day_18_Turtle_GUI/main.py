@@ -93,5 +93,6 @@ for i in range(10):
         tim.penup()
         tim.forward(70)
 
+
 screen = Screen()
 screen.exitonclick()

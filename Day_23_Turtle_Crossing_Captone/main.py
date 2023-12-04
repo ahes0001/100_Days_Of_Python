@@ -34,7 +34,8 @@ while game_is_on:
     # DONE
 # Step 3 Collision with turtle and car: end game
     for car in car_manager.all_cars:
-        if player.ycor() > car.ycor()-20 and player.ycor() < car.ycor()+20 and player.xcor() > car.xcor()-20 and player.xcor() < car.xcor()+20:
+        if (player.ycor() > car.ycor() - 20 and player.ycor() < car.ycor() + 20 and player.xcor() > car.xcor() - 20
+                and player.xcor() < car.xcor() + 20):
             score_board.game_over()
             game_is_on = False
 
